@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inconsolata&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+}
+*{
+  margin:0;
+  paddign:0;
+  border:0;
+}
+#menu{
+  display:flex;
+  justify-content:center;
+}
+#menu ul{
+  list-syle:none;
+
+}
+#menu li{
+  display:inline-block;
+  padding:10px 15px;
+  font-family: 'Anton', sans-serif;
+  
+}
+a{
+  text-decoration:none;
+  color:black;
+}
+h1{
+  text-align:center;
+  font-size:30px;
+  margin:2%;
+  font-family: 'Roboto Mono', monospace;
+  
+}
+p{
+  font-size:20px;
+  text-indent:50px;
+  text-align:justify;
+  margin:1% 2%;
+ font-family: 'Barlow Condensed', sans-serif;
+}
+#principal{
+  width:90%;
+  height:80vh;
+  border-radius:10px;
+  background-color:red;
+  margin:0 auto;
+  background: #FFAFBD;  
+background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD); 
+background: linear-gradient(to right, #ffc3a0, #FFAFBD);
+
+}
+.rodape{
+  text-align:center;
+  margin-top:15%;
+  }
+img{
+  width:30%;
+  height:200px;
+  margin-right:2%;
+  display:block;
+  float:right;
+  border-radius:10px;
+}
+.esq{
+   width:30%;
+  height:200px;
+  margin-left:2%;
+  display:block;
+  float:left;
+}
+img:hover{
+  width:40%;
+  height:250px;
+  transform:0.7;
+ 
+}
+body{
+  background: #DBE6F6;  
+background: -webkit-linear-gradient(to right, #C5796D, #DBE6F6); 
+background: linear-gradient(to right, #C5796D, #DBE6F6); 
+}
